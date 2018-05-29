@@ -1,0 +1,13 @@
+canvas {
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+ }
+
+/*had to add the above height and margin code to make the canvas fit 100% onto the page. It wasn't without it.
+The canvas was leaving a gap around the edges in the browser, can be temperamental, had to close and re-open code to get the full black screen.*/
